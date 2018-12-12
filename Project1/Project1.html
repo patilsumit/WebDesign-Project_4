@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <a href="#" class="nav-brand"><h3>APPERLE</h3></a>
+            <button class="navbar-toggler" data-toggle="collapse"
+                    data-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="nav navbar-nav ml-auto mr-5 ">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Screenshots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Download</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">News</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Page1</a>
+                            <a class="dropdown-item" href="#">Page2</a>
+                            <a class="dropdown-item" href="#">Page3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline" role="search">
+                <input type="text" class="form-control" placeholder="search">
+                <button class="btn btn-outline-warning navbar-btn" type="submit">
+                submit
+                </button>
+            </form> 
+        </nav>
+        
+<!--
+        <section id="header" class="pt-5">
+            <div class="primary-overlay text-white">
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="col-lg-6 text-center">
+                            <h1 class="pt-5 mt-5 ">APPERLE</h1>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit0 
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit0
+                            </p>
+                            <a class="btn btn-outline-dark btn-lg-text-white">
+                                <i>Find More About Us</i>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-6 pl-5">
+                            <img src="music.jpg" width="350" class="rounded-circle
+                            ml-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+-->
+        <br><br><br><br><br>
+        <div class="container-fluid my-6">
+            <form class="form">
+                <label for="">Name</label>
+                <input type="text" class="form-control">
+                <label for="">Email</label>
+                <input type="email" class="form-control">
+                <button type="submit" class="btn btn-outline-danger">
+                Submit</button>
+            </form>
+            
+            
+        </div>
+        
+        <div class="container-fluid">
+            <form class="form">
+                <p>Select ur fruit</p>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value="mango">
+                        Mango
+                    </label>
+                </div>
+            </form>
+        </div>
+        <br><br>
+         <div class="container-fluid">
+            <form class="form">
+                <p>Select ur fruit</p>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="mango" name="fruit-option">
+                        Mango
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="grape" name="fruit-option">
+                        Grape
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="apple" name="fruit-option">
+                        apple
+                    </label>
+                </div>
+            </form>
+        </div>
+        <br>
+        <div class="container-fluid">
+            <form>
+            <div class="form-group">
+                <lable for="fruits">fruits</lable>
+                <select class="form-control " id="fruits">
+                    <option>Apple</option>
+                    <option>orange</option>
+                    <option>mango</option>
+                </select>
+            </div>
+            </form>
+        </div>
+        
+        
+        <br>
+        
+        <div class="container-fluid">
+            <form>
+                <div class="form-group">
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd" class="form-control">
+                    <small id="pwd-help" class="form-text text-muted">
+                            Lore vjvndjvnndlnv vnwlkdvndlskn nwkdn
+                        ndkvnwlkdnvwklvmwkv
+                    </small>
+                </div>
+                <button type="submit" class="btn btn-outline-warning" >sumbit</button>
+            </form>
+        </div>
+        
+        <fieldset class="form-group">
+            <label for="email-address">Email address:</label>
+            <input type="email" class="form-control" id="email-id">
+        </fieldset>
+        
+        
+        <br>
+        
+        
+<!--        form row-->
+        <div class="container">
+            <form>
+                <div class="form-group row">
+                    <label for=firstname class="col-sm-3 col-form-label">
+                    first Name
+                    </label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="firstname" name="firstname">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for=lasttname class="col-sm-3 col-form-label">
+                    last Name
+                    </label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="lastname" name="lastname">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="offset-sm-3 col-sm-9">
+                        <button type="submit" class="btn btn-outline-dark w-100">
+                        Submit
+                        </button>
+                    </div>
+                </div>
+            </form>            
+        </div>
+        
+        <br><br>
+        <div class="container-fluid">
+            <form>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="first" class="d-none d-sm-block col-form-label">First Name</label>
+                    
+                        <input type="text" class=" form-control" id="firstname" name="firstname" placeholder="firstname">
+                    </div>
+                    
+                    <div class="col-sm-6 mt-2 mt-sm-0">
+                    <label for="last" class="d-none d-sm-block col-form-label ">Last Name</label>
+                        <input type="text" class="form-control" id="Lastname" name="Lastname" placeholder="lastname">
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-12">
+                    <label for="Address" class="d-none d-sm-block col-form-label">Address1</label>
+                      <input type="text" class="form-control " id="adderss1" name="address1" placeholder="Address1">  
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-12">
+                    <label for="Address2" class="d-none d-sm-block col-form-label">Address2</label>
+                      <input type="text" class="form-control " id="adderss2" name="address2" placeholder="Address2">  
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-sm-4">
+                    <label for="city" class="d-none d-sm-block col-form-label">city  </label>
+                    <input type="text" class="form-control" id="city" name="city" placeholder="city">
+                    </div>
+                    
+                    <div class="col-sm-4">
+                    <label for="state" class="d-none d-sm-block col-form-label">state</label>
+                    
+                        <input type="text" class="form-control " id="state" name="state" placeholder="state">
+                    </div>
+                    
+                    <div class="col-sm-4">
+                    <label for="zip" class="d-none d-sm-block col-form-label">Zip </label>
+                    <input type="text" class="form-control" id="zip" name="zip" placeholder="zip">
+                    </div>
+                   
+                </div>
+            </form>
+        
+        </div>
+        
+        
+<!--Carousel        -->
+<!--
+        <div class="carousel slide"  data-ride="carousel">
+            
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid"
+                         src="foot.jpg">
+                </div>
+                
+                <div class="carousel-item ">
+                    <img class="d-block img-fluid"
+                         src="music.jpg">
+                </div>
+            </div>
+        </div>
+-->
+        
+        
+<!--        indicators       -->
+
+        <div class="carousel slide bg-dark w-75 mx-auto"  id="my-carousel" data-ride="carousel" >
+            <ul class="carousel-indicators">
+                <li data-target="#my-carousel" data-slide-to="0" class="active bg-danger"></li>
+                <li data-target="#my-carousel" data-slide-to="1" class="bg-warning"></li>
+                <li data-target="#my-carousel" data-slide-to="2" class=" bg-primary"></li>
+            </ul>
+            
+            
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid"
+                         src="foot.jpg">
+                    <div class="carousel-caption">
+                        <h1>slide 1</h1>
+                    </div>
+                </div>
+                
+                <div class="carousel-item ">
+                    <img class="d-block img-fluid"
+                         src="music.jpg">
+                </div>
+            </div>
+<!--            previous and next button-->
+            <a href="#my-carousel" class="carousel-control-prev " data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#my-carousel" class="carousel-control-next " data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        
+        
+<!--        card-->
+        
+        <div class="container">
+            <div class="card bg-info" style="max-width:340px">
+                <div class="card-header"> Header</div>
+                
+                    <img class="card-img-top" src="foot.jpg">
+
+                    <div class="card-body">
+                       <h1>heloo World</h1>
+                        <p id="pp">kdjklk jdvndlknvd nlknvlk lasnvlkanvkladvn dvndlkvndkl dvndalkvn
+                        nwdvnwvj dnvwnfwpkn iwniwnepnpc wiejfpwiefnpwenc wincwienw</p>
+                        <a herf="#pp" class="btn btn-outline-danger"> Read More</a>
+                    </div>
+            </div>
+        </div>
+
+        
+<!--    Alert-->
+        <div class="container">
+            <div class="alert alert-info show alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="alert-heading">Message alert</h3>
+                <p>djvhdvn dvndlnvd divdsvndkv idvdivnd</p>
+                <p class="mb-0">Have a nice </p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="alert alert-info show " role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                    <span >&times;</span>
+                </button>
+                <h3 class="alert-heading">Message alert</h3>
+                <p>djvhdvn dvndlnvd divdsvndkv idvdivnd</p>
+                <p class="mb-0">Have a nice </p>
+            </div>
+        </div>
+        
+    <script src="jquery.min.js" ></script>
+    <script src="popper.min.js" ></script>
+    <script src="bootstrap.min.js"></script>
+<!--    <script src="jss/navbar-fixed.js"></script>-->
+    </body>
+</html>

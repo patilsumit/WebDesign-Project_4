@@ -1,0 +1,157 @@
+
+.navbar{
+    box-shadow: 1px 1px 1px 1px skyblue;
+    opacity: 0.7;
+}
+
+
+#header{
+	background: url("mblh.jpg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	
+}
+
+
+#h{
+    font-size: 6.5em;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+#feature{
+    background: url("2.jpg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    
+}
+
+#About{
+      background:url("mblh.jpg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+#showcase{
+    background: url("ap.jpg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+#search{
+    background: black;   
+}
+
+#Screenshot{
+    background: url("ap.jpg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    color: white;
+	height: auto;
+   
+}
+
+#testimonial{
+    background:#41a5db ;
+	height: auto;
+   
+}
+
+#bts{
+	background: url("c5.jpeg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	color:orange;
+    height: auto;
+}
+
+#bts .card{
+    box-shadow: -1px -1px 8px 8px white;
+}
+
+
+#getitnow{
+    background: #41a5db;
+	color:palegreen;
+    height: auto; 
+}
+
+#news{  
+    background:url("pic2.jpeg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	color:palegreen;
+    height: auto;
+}
+
+#news .card:hover{
+    
+    box-shadow: -1px -1px 8px 8px palegreen;
+}
+
+#video .box-shadow{
+    box-shadow: 0px 0px 6px 6px grey;
+}
+
+#video{
+    background:  #3292a6;
+    height: auto;
+}
+
+#prices{
+    background:url("1.jpg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+#oneproject{
+    box-shadow: 1px 1px 8px 8px gray; 
+}
+
+#prices .card:hover{
+    color:aliceblue;
+    box-shadow: -1px -1px 8px 8px aliceblue;
+}
+
+#Statistics{
+    background: skyblue;
+}
+
+#FAQS{
+    background:url("c1.jpeg") no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+/*
+#car{
+    
+    opacity: 0.6;
+}
+*/
+
+
+#car .card:hover {
+  background: #3292a6;
+  color: #fff; 
+}
+
+.card:hover .text {
+    color: #fff; }
+
+.box-shadow {
+            box-shadow: -1px -1px 3px 3px ;
+            transition: box-shadow 1s ease;
+        }
+
+.box-shadow:hover {
+            box-shadow: -1px -1px 8px 8px orange;
+        }
